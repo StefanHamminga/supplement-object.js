@@ -1,0 +1,25 @@
+{
+  "name": "supplement-object",
+  "version": "1.0.0",
+  "description": "Recursively supplement all keys from addition objects to the base object.",
+  "main": "supplement.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanHamminga/supplement-object.js.git"
+  },
+  "keywords": [
+    "recurively",
+    "supplement",
+    "extend",
+    "object"
+  ],
+  "author": "Stefan Hamminga",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/StefanHamminga/supplement-object.js/issues"
+  },
+  "homepage": "https://github.com/StefanHamminga/supplement-object.js#readme"
+}
