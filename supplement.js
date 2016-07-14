@@ -2,8 +2,10 @@
  * Recursively supplement all keys from addition objects to the base object.
  * @param  {Object} base     Object to be supplemented
  * @param  {Object} addition Objects with additional properties, as many as needed
+ * @return {Object} base     Extended base or new object
  */
 function supplement(base, addition) {
+    if (typeof base === undefined) base = {};
     if (base instanceof Object) {
         var bkeys, bkey, akeys, akey, add;
         for (let i = 1; i < arguments.length; i++) {
@@ -25,6 +27,7 @@ function supplement(base, addition) {
             }
         }
     }
+    return base;
 }
 
 module.exports = supplement;
