@@ -4,6 +4,8 @@ Recursively supplement all keys from addition objects to the base object. This w
 
 Add defaults to configuration objects, etc.
 
+This modifies the `base` object in-place and returns a reference to base.
+
 ## Installing and usage
 
 ```bash
@@ -48,6 +50,17 @@ const obj1 = {
     }
 };
 
+// Or another common use case:
+
+const defaults = {
+    myvar: true
+}
+
+function bla (config) {
+    config = supplement(config, defaults);
+}
+
+bla(); // config will equal defaults
 ```
 
 ## Notes and license
