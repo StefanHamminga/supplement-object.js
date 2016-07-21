@@ -5,7 +5,7 @@
  * @return {Object} base     Extended base or new object
  */
 function supplement(base, addition) {
-    if (typeof base === undefined) base = {};
+    if (typeof base === 'undefined') base = {};
     if (base instanceof Object) {
         var bkeys, bkey, akeys, akey, add;
         for (let i = 1; i < arguments.length; i++) {

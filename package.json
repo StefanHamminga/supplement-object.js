@@ -1,6 +1,6 @@
 {
   "name": "supplement-object",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Recursively supplement all keys from addition objects to the base object.",
   "main": "supplement.js",
   "scripts": {
